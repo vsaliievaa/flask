@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h3>Enter your bearer token and screen_name:</h3>
+<form action="/enter_screen_name" method="post">
+    <input name="bearer_token" placeholder="Token" type="text"/>
+    <p>For safety purposes, paste your token here. If you don`t have one yet, apple for Twitter Developer Account.</p>
+    <p>For more info, check https://developer.twitter.com/en</p>
+    <input name="counter" placeholder="Counter" type="text"/>
+    <p>Enter a number of followers you would like to be located on your map.</p>
+    <p>NOTE: In order for generation to be faster, please enter a number from 1 to 100.</p>
+    <input name="screen_name" placeholder="Name" type="text"/>
+    <p>Small tip: your map will have two layers.</p>
+    <p>"Followers" layer contains popups with the followers` nicknames.</p>
+    <p>"Places" layer contains locations of those followers and is disabled by default.</p>
+    <p>To enable/disable any layer, use Layer Control panel in the right upper corner of the map.</p>
+    <input type="submit" value="Submit"/>
+</form>
+{% endblock %}
