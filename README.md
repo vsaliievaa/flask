@@ -13,4 +13,4 @@ This module is a web app itself. It accounts for posting a request to a server, 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-_NOTE: this app requires entering personal information (a bearer token). The app will not store it or use it in any other way, except forming a request with it. Remember to keep this token safe and avoid publishing it.
+_NOTE: this app requires entering personal information (a bearer token). The app will not store it or use it in any other way, except forming a request with it. Remember to keep this token safe and avoid publishing it._
