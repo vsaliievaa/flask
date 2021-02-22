@@ -9,3 +9,8 @@ This module contains functions that work with TwitterAPI and process the respons
 
 ## webapp.py
 This module is a web app itself. It accounts for posting a request to a server, getting all the necessary information from user, and returning a web page (a template), which contains a map.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+_NOTE: this app requires entering personal information (a bearer token). The app will not store it or use it in any other way, except forming a request with it. Remember to keep this token safe and avoid publishing it.
